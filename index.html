@@ -1,82 +1,56 @@
-<html lang="pl">
+<html>
  <head>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <style>
-   body {
-            font-family: 'Arial', sans-serif;
-        }
-  </style>
+  <title>
+   Usługi kosmetyczne
+  </title>
  </head>
- <body class="bg-purple-100">
-  <!-- Header -->
-  <header class="bg-purple-500 text-white p-4">
-   <h1 class="text-3xl font-bold text-center">
-    Usługi kosmetyczne
-   </h1>
-  </header>
-  <div class="flex min-h-screen">
-   <!-- Sidebar -->
-   <div class="w-1/4 bg-purple-200 p-4 flex flex-col justify-between">
-    <div>
-     <h2 class="text-lg font-bold mb-4">
-      Nasza oferta
-     </h2>
-     <ul class="list-none">
-      <li class="mb-2">
-       <a class="text-blue-700" href="#">
-        1. Oczyszczanie twarzy
-       </a>
-       <ul class="ml-4 list-disc">
-        <li>
-         <a class="text-blue-700" href="#">
-          Peeling
-         </a>
-        </li>
-        <li>
-         <a class="text-blue-700" href="#">
-          Maska
-         </a>
-        </li>
-       </ul>
-      </li>
-      <li class="mb-2">
-       <a class="text-blue-700" href="#">
-        2. Masaż
-       </a>
-      </li>
-      <li class="mb-2">
-       <a class="text-blue-700" href="#">
-        3. Makijaż
-       </a>
-      </li>
-      <li class="mt-4">
-       <a class="text-pink-700" href="#">
-        Strona główna
-       </a>
-      </li>
-     </ul>
-    </div>
-    <div class="mt-4">
-     <img alt="Portrait of a woman with dark hair and a white shirt" class="w-full" height="200" src="123.png" width="240"/>
-    </div>
+ <link rel="stylesheet" href="style.css">
+ <body>
+  <div class="container">
+   <div class="sidebar">
+    <h2>
+     Nasza oferta
+    </h2>
+    <ul>
+     <li>
+      1. Oczyszczanie twarzy
+      <ul>
+       <li>
+        Peeling
+       </li>
+       <li>
+        Maska
+       </li>
+      </ul>
+     </li>
+     <li>
+      2. Masaż
+     </li>
+     <li>
+      3. Makijaż
+     </li>
+     <li>
+        <a href="twarz.html" class="a-index">twarz</a>
+      </a>
+     </li>
+    </ul>
+    <img alt="Zdjęcie kosmetyczki" height="350" src="123.png" width="200"/>
    </div>
-   <!-- Main Content -->
-   <div class="flex-grow p-8">
-    <p class="text-center mt-8 text-lg">
+   <div class="content">
+    <h1>
+     Usługi kosmetyczne
+    </h1>
+    <p>
      Witaj! Miło nam, że odwiedziłeś nasz salon. Zapoznaj się z ofertą lub skontaktuj się z nami.
     </p>
-    <div class="flex justify-center mt-8">
-     <img alt="A bottle of essential oil with flowers around it" class="border" height="200" src="345.png" width="700"/>
-    </div>
-    <p class="text-center mt-8 text-xl text-purple-700">
+    <img alt="Kwiaty i buteleczka z olejkiem" height="400" src="345.png" width="700"/>
+    <div class="phone">
      Telefon: 728 281 247
-    </p>
+    </div>
    </div>
   </div>
-  <footer class="bg-purple-500 text-white text-center p-4">
+  <div class="footer">
    Autor: Dominik Damaszke
-  </footer>
+  </div>
  </body>
 </html>
